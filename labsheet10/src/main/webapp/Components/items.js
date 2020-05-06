@@ -108,21 +108,21 @@ function validateItemForm() {
 	
 	// PHONE NUMBER------------------------
 	if ($("#fname").val().trim() == "") {
-		return "Insert the Report Number of the Lab.";
+		return "Insert first name.";
 	}
 	// DESC------------------------
 	if ($("#lname").val().trim() == "") {
-		return "Insert the name of the Lab Report.";
+		return "Insert last name.";
 	}
 	
 	if ($("#nic").val().trim() == "") {
-		return "Insert the Lab Report Details.";
+		return "Insert NIC.";
 	}
 	if ($("#dob").val().trim() == "") {
-		return "Insert the Lab Report Details.";
+		return "Insert DOB.";
 	}
 	if ($("#pw").val().trim() == "") {
-		return "Insert the Lab Report Details.";
+		return "Insert PASSWORD.";
 	}
 	
 	return true;
